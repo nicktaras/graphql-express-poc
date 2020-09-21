@@ -14,7 +14,7 @@ var schema = buildSchema(`
   }
 `);
 
-// Temp Storage to memory
+// Temp Storage in memory
 let application = {};
 
 // The root provides a resolver function for each API endpoint
