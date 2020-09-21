@@ -1,5 +1,5 @@
 # graphql-express-poc
-A simple POC to learn more about the difference between REST and GraphQL - specifically for error handling and joins between different entities
+A simple POC to show GraphQL approach - focussing on GraphQL rather than REST, error handling and queries the require joins. 
 
 ## Run
 
