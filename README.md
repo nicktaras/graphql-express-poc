@@ -1,5 +1,5 @@
 # graphql-express-poc
-A simple POC to show GraphQL approach - focussing on GraphQL rather than REST, error handling and queries the require joins. 
+A simple example to demo GraphQL.
 
 ## Run
 

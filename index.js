@@ -14,14 +14,14 @@ var schema = buildSchema(`
   }
 `);
 
-// Temp Storage to memory
+// Temp Storage in memory
 let application = {};
 
 // The root provides a resolver function for each API endpoint
 var root = {
   createUser: ({ name, pass }) => {
     // CreateUser(name, pass);
-    if (application['user']) return 'User exists';
+    if (application.user && application.user.length) return `User exists ${application.user}`;
     application['user'] = name;
     return `User Profile for ${application.user} has been Created`;
   },
