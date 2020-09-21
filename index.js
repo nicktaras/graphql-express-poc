@@ -2,8 +2,6 @@ var express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 var { buildSchema } = require('graphql');
 
-// This is for Proof of Concept only.
-
 // Construct a schema, using GraphQL schema language
 var schema = buildSchema(`
   type Query {
