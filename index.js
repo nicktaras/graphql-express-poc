@@ -14,6 +14,8 @@ var schema = buildSchema(`
   }
 `);
 
+// mutations are applied to this simple application 
+
 let application = {
   'appKeys': ['user', 'post', 'blog'],
   'user': [],
